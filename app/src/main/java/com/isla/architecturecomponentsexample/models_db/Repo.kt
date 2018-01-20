@@ -1,4 +1,4 @@
-package com.isla.architecturecomponentsexample.entities
+package com.isla.architecturecomponentsexample.models_db
 
 import android.arch.persistence.room.Entity
 import android.arch.persistence.room.PrimaryKey

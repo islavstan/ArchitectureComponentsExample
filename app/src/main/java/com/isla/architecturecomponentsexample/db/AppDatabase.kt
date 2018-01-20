@@ -2,7 +2,8 @@ package com.isla.architecturecomponentsexample.db
 
 import android.arch.persistence.room.Database
 import android.arch.persistence.room.RoomDatabase
-import com.isla.architecturecomponentsexample.entities.Repo
+import com.isla.architecturecomponentsexample.db.dao.ReposDao
+import com.isla.architecturecomponentsexample.models_db.Repo
 
 
 @Database(entities = arrayOf(Repo::class), version = 1)
